@@ -1,0 +1,3 @@
+方式一: 包本身包含声明文件, 比如axios
+方式二: 没有包含, 但在官方DefineTypes库中包含声明文件,比如react: npm i @types/react -D
+方式三: 自己没有声明, DefineTypes库中也没有, 需要手写自定义声明文件, 声明方式查看lodash.ts
